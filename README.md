@@ -39,23 +39,29 @@ jmeter -g C:\apache-jmeter-5.6.3\LoadTesting\results.csv -o C:\apache-jmeter-5.6
 ```
 
 ### Important Notes
-- **Output Folder**: Make sure the `report_folder` does not already exist. If it does, either delete it or choose a different name for the report folder.
+- **Output Folder**: Make sure the `Report_folder` does not already exist. If it does, either delete it or choose a different name for the report folder.
 - **File Paths**: Ensure the paths to your `.jmx` file and the output files are correct.
 - **Permissions**: Run the command prompt or terminal with sufficient permissions if you encounter any issues.
 
 
 ###Parameterization
-
-Steps to parameterize
-Put the test file in csv
-Configure jmeter to read those test data from csv file (csv data set config)
-Replace hard coded test data with variable (path, variable)
+#Steps to parameterize
+ - Put the test file in csv
+ - Configure jmeter to read those test data from csv file (csv data set config)
+ - Replace hard coded test data with variable (path, variable)
 
 ###Assertions
 Response Assertion:
-Add assertion and add criteria
+ - Add assertion and add criteria
+ - Response code
+ - Response body
 
-###Timerf
+###Timer
+ - constant timer
+
+###User
+ - 100 user (threads)
+ - 2 seconds for each user
 
 
 
