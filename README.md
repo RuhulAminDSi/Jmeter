@@ -64,6 +64,8 @@ Response Assertion:
  - 2 seconds for each user
 
 
+Run for Report - jmeter.bat -n -t "DPE_Load\Thread Group.jmx" -l DPE_Load\results.jtl -e -o DPE_Load\report -f
+
 
 
 
